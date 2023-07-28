@@ -1,3 +1,23 @@
+.btn-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.modal-btn{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background: transparent;
+  outline: none;
+  border: 2px solid grey;
+  font-size: 20px;
+  cursor: pointer;
+}
+.modal-btn:hover{
+  background-color: #f1f1f1;
+}
+
 /* Styles for the modal and accordion */
 .modal {
     display: none;
@@ -16,7 +36,7 @@
     margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 50%;
   }
   
   .close {
@@ -60,20 +80,20 @@
   }
   
   /* Styling for Modal 2 */
-  #modal2 .modal-content {
+  /* #modal2 .modal-content {
     background-color: #f9f9f9;
   }
   
   #modal2 .accordion-header {
     background-color: #e2f0ff;
-  }
+  } */
   
   /* Styling for Modal 3 */
-  #modal3 .modal-content {
+  /* #modal3 .modal-content {
     background-color: #f0f0f0;
   }
   
   #modal3 .accordion-header {
     background-color: #d0e0d8;
-  }
+  } */
   
